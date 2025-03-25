@@ -276,8 +276,3 @@ Intersection over Union (IoU) and Dice coefficient are used to compare predicted
 - Loss Function: Binary Cross Entropy
 - Batch size: 8
 - Optimizer: SGD with learning rate 0.1
-## Screenshots
-
-![App Screenshot](https://github.com/Sreyas-J/VR_Project1_Sreyas_IMT2022554_Pradyumna_IMT2022555_Chinmay_IMT2022561/blob/main/ConfusionMatrix.png)
-
-
