@@ -44,8 +44,8 @@ def load_image_dataset(img_directory, annotation_directory):
     return np.array(image_collection), np.array(annotation_collection)
 
 # Path configuration
-input_img_dir = "/kaggle/input/imagefolder2/MSFD/1/face_crop"
-input_mask_dir = "/kaggle/input/imagefolder2/MSFD/1/face_crop_segmentation"
+input_img_dir = "MSFD/1/face_crop"
+input_mask_dir = "MSFD/1/face_crop_segmentation"
 
 # Load and split dataset
 input_images, target_masks = load_image_dataset(input_img_dir, input_mask_dir)
