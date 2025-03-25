@@ -246,7 +246,7 @@ Intersection over Union (IoU) and Dice coefficient are used to compare predicted
 - VGG 16 achieves the lowest IOU and Dice score. 
 - VGG19 performs better compared to VGG16 indicating that deeper architectures provide improved feature extraction for segmentation.
 - ResNet-50 with Binary Cross Entropy achieves the highest IoU and Dice Score.
-- Changing the number of epochs between 10 and 15 didn't give a huge difference in the scores, so we continued with 8 epochs for rest of the tunings.
+- Changing the number of epochs between 10 and 15 didn't give a huge difference in the scores, so we continued with 10 epochs for rest of the tunings.
 - Dice Loss underperforms compared to Binary Cross Entropy Loss function.
 - Increasing the batch size from 8 to 16 slightly reduces performance.
 - SGD outperforms Adam optimizer in all cases. 
